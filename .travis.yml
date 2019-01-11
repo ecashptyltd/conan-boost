@@ -5,7 +5,7 @@ env:
      - CONAN_LOGIN_USERNAME: "mbeach"
      - CONAN_CHANNEL: "release"
      - CONAN_UPLOAD: "https://api.bintray.com/conan/mbeach/public-conan"
-     - CONAN_STABLE_BRANCH_PATTERN: "build-for-bintray"
+     - CONAN_STABLE_BRANCH_PATTERN: "build-for-bintray/release/*"
      - CONAN_UPLOAD_ONLY_WHEN_STABLE: 1
      - CONAN_TOTAL_PAGES: 8
 
